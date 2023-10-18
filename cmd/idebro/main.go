@@ -19,7 +19,7 @@ func main() {
     case "set-ide":
       LauchProgram(LoadCmd_SetIde())
     case "set-editor":
-      fmt.Println("idebro set-ide")
+      LauchProgram(LoadCmd_SetIde())
     case "list":
       fmt.Println("idebro list")
     case "ls":
